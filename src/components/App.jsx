@@ -23,7 +23,8 @@ function App() {
         break;
 
       default:
-        alert('Opsss.... smth going wrong!');
+        alert(`Unable to recognize ${click}`);
+        console.log(click);
         break;
     }
   };
